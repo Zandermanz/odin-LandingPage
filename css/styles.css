@@ -3,5 +3,48 @@ body{
     }
 
 .hero{
-    /*background-color: #1F2937; for later*/
+    
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h1{
+    color: #F9FAF8;
+    size: 24px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #E5E7EB;
+    size: 18px;
+}
+
+.hero-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-body-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-body-left h1{
+    color: #F9FAF8;
+    size: 48px;
+    font-weight:800;
+}
+
+.hero-body-left p{
+    color: #E5E7EB;
+    size: 18px;
+}
+
+.hero-body-right img{
+    flex-basis: 50%;
 }
