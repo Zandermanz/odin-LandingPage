@@ -1,7 +1,9 @@
 body{
     font-family: Roboto, sans-serif;
+    margin: 0px;
     }
-
+    
+/*------- Hero ------*/
 .hero{
     
     background-color: #1F2937;
@@ -13,15 +15,16 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 .navbar h1{
     color: #F9FAF8;
-    size: 24px;
+    font-size: 24px;
 }
 
 .links a{
     text-decoration: none;
     color: #E5E7EB;
-    size: 18px;
+    font-size: 18px;
 }
 
 .hero-body{
@@ -30,21 +33,56 @@ body{
 }
 
 .hero-body-left{
-    display: flex;
     flex-direction: column;
+    width: 40%;
 }
 
 .hero-body-left h1{
     color: #F9FAF8;
-    size: 48px;
+    font-size: 48px;
     font-weight:800;
 }
 
 .hero-body-left p{
     color: #E5E7EB;
-    size: 18px;
+    font-size: 18px;
 }
 
 .hero-body-right img{
-    flex-basis: 50%;
+    width: 40%;
+    height: auto;
+}
+
+/* Random Information with Image Boxex*/
+.squareboxbox{
+    display: flex;
+}
+
+.squaredimage img{
+width: 200px;
+height: 200px;
+border-radius: 15px;    
+}
+
+/* Quote */
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quotetext{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* ------- Footer ------ */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+.footer p{
+    color: #F9FAF8;
 }
