@@ -104,10 +104,12 @@ border: 3px solid #3882F6;
 /* Quote */
 
 .quote{
-    margin: 2vw 12vw;
+    background-color: #E5E7EB;
+    padding-top: 120px;
 }
 
 .quotetext{
+    margin: 0vw 12vw;
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
@@ -118,19 +120,47 @@ border: 3px solid #3882F6;
     text-align: right;
     font-weight: bold;
     font-size: 24px;
-    margin-right: 50px;
+    margin: 0vw 16vw;
+    padding-bottom: 120px;
 }
 
 /* -------Call to Action-----*/
 .calltoaction{
-    margin: 2vw 10vw;
+    display: flex;
+    margin: 8vw 10vw;
+    padding: 48px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;  
 }
 
+.calltoaction p{
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+.calltoaction h1{
+    margin: 0px;
+    font-size: 24px;
+}
+
+.calltoactionbutton{
+    margin-left: 225px;
+    float: right;
+    font-size: 18px;
+    padding: 6px 30px;
+    background-color: #3882F6;
+    border: 3px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+   
 /* ------- Footer ------ */
 .footer {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
+    padding: 16px;
 }
 .footer p{
     color: #F9FAF8;
